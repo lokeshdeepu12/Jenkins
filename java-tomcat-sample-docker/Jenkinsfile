@@ -1,7 +1,7 @@
 pipeline{
     agent any
-    stages{
-        stage{
+    stages {
+        stage('Build Application') {
             steps{
                 sh 'mvn clean package'
             }
