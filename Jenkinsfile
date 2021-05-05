@@ -14,7 +14,7 @@ pipeline {
                 }
             }
             stage('Deploy'){
-                stps {
+                steps {
                     echo 'Deploying the Jenkins pipeline'
                     echo 'Third Step in this process'
                 }
