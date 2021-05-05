@@ -3,7 +3,7 @@ job ('New_MAVEN_Job_2') {
 
    scm{
        git("https://github.com/lokeshdeepu12/Jenkins.git", */master)
-   } 
+    } 
    triggers {
        scm('* * * * *')
    }
